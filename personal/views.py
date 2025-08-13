@@ -1,10 +1,12 @@
-from django.shortcuts import render
-
+from django.shortcuts import render, redirect
 
 
 
 def home(request):
-    context={
+    context = {
 
     }
-    return render(request,'index.html', context)
+    return render(request, 'index.html', context)
+
+
+
